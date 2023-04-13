@@ -1,0 +1,165 @@
+<!-- Definición de HTML5 -->
+<!DOCTYPE html>
+<!-- Define tipo de lenguaje-->
+<html lang="en">
+<!-- Contiene información que no se visualizará en el navegador-->
+
+<head>
+	<!--Sirven para aportar información al documento (responsividad, palabras claves, descripción, ect)-->
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="La empresa Te lo Vendo es un emprendimiento dedicado a la venta de productos
+         a través de canales en línea, como el teléfono, correo electrónico y próximamente un sitio web." />
+	<meta name="keywords" content="venta en línea, comercio electrónico">
+	<!-- Título de la página-->
+	<title>Te lo vendo</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+	<link href="assets/css/style.css" rel="stylesheet" />
+</head>
+
+<!--Cuerpo de la página-->
+<div class="container">
+
+	<body class="bg-primary-subtle">
+		<!-- <div class="container"></div> -->
+		<header class="header">
+			<div class="logo_img d-flex justify-content-center align-items-center">
+				<img class="img-fluid" src="assets/img/te_vendo.png" alt="imagen te lo vendo">
+			</div>
+			<h1 class="d-flex justify-content-center align-items-center">Venta de productos tecnológicos, a un sólo
+				click de distancia</h1>
+		</header>
+
+
+		<div class="container">
+
+			<nav class="navbar navbar-expand-lg  bg-primary ">
+				<div class="container-fluid">
+					<a class="nav-link active text-white" aria-current="page" href="estadisticas.html">Productos en Stock</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+						aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link active text-white" aria-current="page" href="#">Pedidos</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active text-white" href="#">Seguimiento</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active text-white" href="contacto.html">Contacto</a>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+			<div class="container py-5">
+				<form action="">
+					<div class="mb-3">
+						<label for="exampleFormControlInput1" class="form-label">Ingrese nombre de producto a
+							buscar:</label>
+						<input type="text" class="form-control" id="exampleFormControlInput1"
+							placeholder="Ingrese nombre de producto a buscar" />
+					</div>
+
+					<div class="mb-3">
+						<label for="exampleFormControlInput1" class="form-label">Ingrese número de pedido:</label>
+						<input type="email" class="form-control" id="exampleFormControlInput1"
+							placeholder="Ingrese número de pedido" />
+					</div>
+
+					<div class="mb-3">
+						<label for="exampleFormControlInput1" class="form-label">Ingrese número de seguimiento:</label>
+						<input type="email" class="form-control" id="exampleFormControlInput1"
+							placeholder="Ingrese número de seguimiento" />
+					</div>
+
+
+				</form>
+			</div>
+
+		</div>
+
+
+
+		<main>
+			<!--Sección de la página-->
+			<!-- <div class="container"></div> -->
+			<section class="container2">
+				<!--Etiqueta de párrafo-->
+				<h2 class="d-flex justify-content-center align-items-center py-3">Nuestra tienda</h2>
+				<p>
+					La empresa Te lo Vendo es un emprendimiento de un grupo de jóvenes en
+					Chile, dedicado a la venta de productos a través de canales en línea, por ejemplo vía
+					telefónica, correo electrónico y próximamente un sitio web.
+				</p>
+
+				<p>
+					Pertenece al rubro del comercio electrónico y busca mejorar la gestión de
+					pedidos mediante la implementación de un sistema tecnológico,
+					que nos permitirá entregar al cliente una mejor visualización de nuestros productos, solicitud de
+					pedidos y seguimiento
+					de ellos. Para así, mediante la generación de reportes y estadísticas, poder mejorar continuamente
+					la satisfacción de
+					nuestros clientes.
+				</p>
+			</section>
+			<hr>
+
+			<section>
+				<h2 class="d-flex justify-content-center align-items-center py-3">Galería de imágenes</h2>
+				<!-- USO DE IMAGENES OBJECT-FIT -->
+				<div class="section_objectFit">
+
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<img src="assets/img/desktop.jpg" alt="Imágen 01" class="img-fluid">
+							</div>
+							<div class="col">
+								<img src="assets/img/ssd m2.webp" alt="Imágen 02" class="img-fluid">
+							</div>
+							<div class="col">
+								<img src="assets/img/teclado.avif" alt="Imágen 03" class="img-fluid">
+							</div>
+							<div class="col">
+								<img src="assets/img/mouse.jpg" alt="Imágen 04" class="img-fluid">
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</section>
+
+		</main>
+
+		<footer>
+			<!-- <div class="container"></div> -->
+			<h4>Integrantes:</h4>
+			<ul>
+				<!--Lista no ordenada-->
+				<li>Enzo Rojas</li>
+				<li>Damaris Morales</li>
+				<li>José Badilla</li>
+				<li>Karla Gáez</li>
+				<li>Carolaine Peralta</li>
+			</ul>
+			<p class="d-flex justify-content-center align-items-center">Te lo vendo &copy; 2023</p>
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">
+		</script>
+		<!--Se vincula a archivo JavaScript-->
+		<script defer src="assets/js/funciones.js"></script>
+	</body>
+</div>
+
+</html>
